@@ -1,0 +1,19 @@
+{
+  "name": "pdf-printable-editor",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Make PDFs printer-friendly by removing or recoloring the page objects you choose. Runs entirely in the browser.",
+  "scripts": {
+    "start": "serve -l 8000",
+    "test": "node test/run-tests.js",
+    "samples": "node test/make-samples.js"
+  },
+  "dependencies": {
+    "@embedpdf/pdfium": "2.15.1",
+    "pdfjs-dist": "4.10.38"
+  },
+  "devDependencies": {
+    "serve": "14.2.4"
+  }
+}
